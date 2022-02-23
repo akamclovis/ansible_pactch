@@ -15,3 +15,5 @@
             name: '*'
             state: latest
           when: ansible_distribution == "Ubuntu"
+        - name: reboot the machine with all defaults
+          reboot:
